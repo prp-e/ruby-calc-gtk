@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Calculator
+Exec=env ruby ./main.rb
+Terminal=false
+Type=Application
+
+
