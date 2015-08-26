@@ -4,7 +4,7 @@ class MyClass #(change name)
 	include GladeGUI
 
 	def before_show()
-		@button1 = "+"
+		@builder["window1"].title = "Calculator"
 	end	
 
 	def button1__clicked(*args)
